@@ -10,3 +10,11 @@
 .center {
     text-align: center;
 }
+
+.letter {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid black;
+    
+}
