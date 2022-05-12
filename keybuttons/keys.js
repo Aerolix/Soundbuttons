@@ -7,7 +7,7 @@ function amazing() {
         key.style.backgroundColor = 'black';
         key.style.color = 'white';
         setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
-        setTimeout(() => { key.style.color = 'black'; }, 5000);
+        setTimeout(() => { key.style.color = 'black'; }, 500);
      }
    }, false); 
  }
