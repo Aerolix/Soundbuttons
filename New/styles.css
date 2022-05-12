@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.iframecenter {
+.thecenter {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -19,6 +19,10 @@
     transform: translate(-50%, -50%);
   }
 
-  .new {
+  .other , .thecenter {
       display: block;
+  }
+
+  .other {
+      position: relative;
   }
