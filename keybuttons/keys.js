@@ -37,9 +37,9 @@ function amazing() {
       setTimeout(() => { key.style.color = 'black'; }, 500);
     }
     if (e.key == "t") {
-      var sound = document.getElementById("nope");
+      var sound = document.getElementById("knocked");
       sound.play();
-      var key = document.getElementById("ther");
+      var key = document.getElementById("thet");
       key.style.backgroundColor = 'black';
       key.style.color = 'white';
       setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
