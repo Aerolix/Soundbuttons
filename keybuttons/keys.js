@@ -27,5 +27,14 @@ function amazing() {
       setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
       setTimeout(() => { key.style.color = 'black'; }, 500);
     }
+    if (e.key == "r") {
+      var sound = document.getElementById("nope");
+      sound.play();
+      var key = document.getElementById("ther");
+      key.style.backgroundColor = 'black';
+      key.style.color = 'white';
+      setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
+      setTimeout(() => { key.style.color = 'black'; }, 500);
+    }
   }, false); 
 }
