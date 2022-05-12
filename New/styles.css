@@ -25,7 +25,31 @@
 
 .num1 {
     position: absolute;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.num2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.num3 {
+    position: absolute;
     left: 60%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.num4 {
+    position: absolute;
+    left: 70%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
