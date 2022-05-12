@@ -1,12 +1,15 @@
-.theform {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 * {
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-.center {
-    text-align: center;
+.option {
+  border: 5px solid black;
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.option:hover {
+  border: 8px solid black;
 }
