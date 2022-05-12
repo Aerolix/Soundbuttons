@@ -9,5 +9,14 @@ function amazing() {
        setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
        setTimeout(() => { key.style.color = 'black'; }, 500);
     }
+    if (e.key == "w") {
+      var sound = document.getElementById("vine");
+      sound.play();
+      var key = document.getElementById("thew");
+      key.style.backgroundColor = 'black';
+      key.style.color = 'white';
+      setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
+      setTimeout(() => { key.style.color = 'black'; }, 500);
+    }
   }, false); 
 }
