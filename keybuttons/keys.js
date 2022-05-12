@@ -11,7 +11,3 @@ function amazing() {
      }
    }, false); 
  }
-
-function amazing() {
-   alert("hello")
-}
