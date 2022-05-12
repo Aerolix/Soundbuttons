@@ -19,10 +19,15 @@
     transform: translate(-50%, -50%);
   }
 
-  .other , .thecenter {
-      display: block;
-  }
+.num1 , .num2 , .thecenter , .num3 , .num4 {
+    display: block;
+}
 
-  .other {
-      position: relative;
-  }
+.num1 {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+ 
