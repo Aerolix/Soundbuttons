@@ -8,6 +8,9 @@
   border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
+  cursor: pointer;
+  size: 50px;
+  width: 50%;
 }
 
 .option:hover {
