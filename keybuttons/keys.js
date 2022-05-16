@@ -54,5 +54,14 @@ function amazing() {
       setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
       setTimeout(() => { key.style.color = 'black'; }, 500);
     }
+    if (e.key =="u") {
+      var sound = document.getElementById("fbi");
+      sound.play();
+      var key = document.getElementById("theu");
+      key.style.backgroundColor = 'black';
+      key.style.color = 'white';
+      setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
+      setTimeout(() => { key.style.color = 'black'; }, 500);
+    }
   }, false); 
 }
