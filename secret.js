@@ -1,16 +1,8 @@
  window.addEventListener('keydown', function (e) {
         if (e.key == "c") {
-            if (e.key == "o") {
-                if (e.key == "l") {
-                    if (e.key == "e") {
-                        sus()
-                    }
-                }
-            }
+            this.alert("c pressed")
         }
    }, false); 
 
-function sus() {
-    alert("hello")
-}
+
  
