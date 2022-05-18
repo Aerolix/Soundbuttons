@@ -7,15 +7,15 @@
                     var cole = "col";
                     if (e.key == "e") {
                         var cole = "cole";
+                        run()
                     }
                 }
             }
         }
    }, false); 
 
-if (cole = "cole") {
-    alert("It works!!")
+function run() {
+    alert("it workd")
 }
-
 
  
