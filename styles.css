@@ -19,7 +19,8 @@
   border: 8px solid black;
 }
 
-.secret {
+.secretbutton {
+  background: transparent;
   border: none;
   font-size: 0;
   cursor: pointer;
