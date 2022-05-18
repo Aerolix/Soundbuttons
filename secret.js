@@ -7,7 +7,7 @@
                     var cole = "col";
                     if (e.key == "e") {
                         var cole = "cole";
-                        run()
+                        run();
                     }
                 }
             }
