@@ -1,12 +1,11 @@
   window.addEventListener('keydown', function (e) {
       if (e.key == "c")  {
-          var code = this.prompt("Secret Code")
+          var code = this.prompt("Secret Code");
+          if (code = "cole") {
+            correct();
+        }
       }
    }, false); 
-
-if (code = "cole") {
-    correct();
-}
 
 function correct() {
     alert(("good"))
