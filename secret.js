@@ -13,7 +13,9 @@
         }
    }, false); 
 
-L
+if (var cole = "cole") {
+    alert("It works!!")
+}
 
 
  
