@@ -13,7 +13,7 @@
         }
    }, false); 
 
-if (var cole = "cole") {
+if (cole = "cole") {
     alert("It works!!")
 }
 
