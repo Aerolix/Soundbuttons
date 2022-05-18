@@ -20,8 +20,6 @@
 }
 
 .secret {
-  size: 300%;
-  background: transparent;
   border: none;
   font-size: 0;
   cursor: pointer;
