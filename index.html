@@ -41,11 +41,16 @@
 <button class="secretbutton" type="button" onclick="da()">secret</button>
 <br>
    <script>
+      let dacode;
      function da() {
-      var code = this.prompt("Secret Code");
-      if (code = "cole") {
-         location.replace("https://soundbuttons.netlify.app/cole/")
-     } }
+      var dacode = this.prompt("Secret Code");
+      if (dacode = "cole") {
+         location.replace("https://soundbuttons.netlify.app/cole/");
+     }
+     else {
+        alert("code not found");
+     }
+       }
                   
    </script>
 <br>
