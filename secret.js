@@ -8,16 +8,10 @@ function correct() {
     document.createElement(<iframe width="110" height="200" src="https://www.myinstants.com/instant/cole-ryan-wet-my-whistle-37694/embed/" frameborder="0" scrolling="no"></iframe>);
 }
 
-function amazing() {
-    window.addEventListener('keydown', function (e) {
-     if (e.key == "c") {
-        var code = this.prompt("Secret Code");
-        if (code = "cole") {
-          correct();
-      }
-     }
-     
-   }, false); 
- }
+function ask() {
+    var code = this.prompt("Secret Code");
+    if (code = "cole") {
+  correct();
+}
+}
 
- 
