@@ -63,5 +63,14 @@ function amazing() {
       setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
       setTimeout(() => { key.style.color = 'black'; }, 500);
     }
+    if (e.key =="i") {
+      var sound = document.getElementById("augh");
+      sound.play();
+      var key = document.getElementById("thei");
+      key.style.backgroundColor = 'black';
+      key.style.color = 'white';
+      setTimeout(() => { key.style.backgroundColor = 'white'; }, 500);
+      setTimeout(() => { key.style.color = 'black'; }, 500);
+    }
   }, false); 
 }
